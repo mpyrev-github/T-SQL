@@ -1,7 +1,7 @@
 USE tempdb;
 GO
 INSERT INTO params (id_param,name)
-    VALUES (1, 'Кол-во задач'), (2, 'Завершенных задач'), (3, 'Сложность');
+    VALUES (1, 'РљРѕР»-РІРѕ Р·Р°РґР°С‡'), (2, 'Р—Р°РІРµСЂС€РµРЅРЅС‹С… Р·Р°РґР°С‡'), (3, 'РЎР»РѕР¶РЅРѕСЃС‚СЊ');
 GO
 INSERT INTO objects_params(id_object,id_param,cdate,value)
     VALUES (1, 1, '21.03.1997', 10), (1, 2, '21.03.1997', 1), (1, 3, '21.03.1997', 1),
